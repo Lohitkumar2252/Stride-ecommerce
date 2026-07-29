@@ -45,7 +45,7 @@ public/
 
 ```bash
 # Clone the repo
-git clone [github-repo-link-here]
+git clone https://github.com/Lohitkumar2252/Stride-ecommerce.git
 cd stride-ecommerce
 
 # Install dependencies
