@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router";
 import { useCart } from "../context/CartContext";
 import { useLocation } from "react-router";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const {
     state: { cart },
   } = useCart();

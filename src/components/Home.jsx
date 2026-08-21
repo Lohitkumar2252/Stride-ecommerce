@@ -12,7 +12,7 @@ const Home = (props) => {
   return (
     <div>
       <HeroSection Num={props.Num} setNum={props.setNum} color={props.color} banner={props.banner}  handleScroll={props.handleScroll}/>
-      <CollectionSection ref={props.ref}/>
+      <CollectionSection/>
       <AboutSection />
     </div>
   );

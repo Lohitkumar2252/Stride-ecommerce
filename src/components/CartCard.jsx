@@ -46,7 +46,7 @@ const CartCard = ({ bgColor, img, category, price, name, id, qty }) => {
               className="plus w-5 h-5 hover:bg-[#2c2c2c83] rounded-full"
             >
               <img
-                src="plusIcon.svg"
+                src="/plusIcon.svg"
                 alt="add"
                 className="w-full h-full object-contain"
               />

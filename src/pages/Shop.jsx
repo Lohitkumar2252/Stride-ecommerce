@@ -46,7 +46,7 @@ const Shop = () => {
           })}
         </div>
         <div className="products_container p-4 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          {filteredProducts.map((value, i) => {
+          {filteredProducts.map((value) => {
             return (
               <Card
                 key={value.id}

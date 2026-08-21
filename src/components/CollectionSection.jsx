@@ -2,12 +2,12 @@ import React from "react";
 import Card from "./Card";
 import { useCart } from "../context/CartContext";
 
-const CollectionSection = (props) => {
+const CollectionSection = () => {
   const {
     state: { products },
   } = useCart();
   return (
-    <section ref={props.ref}>
+    <section>
       <div className="container p-4 pt-10 sm:pt-20 sm:p-7vv">
         <p className="text-[#D01A10] uppercase tracking-widest text-sm">
           featured this season
