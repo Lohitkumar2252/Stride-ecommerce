@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router";
 import Footer from "./components/Footer";
@@ -18,7 +18,7 @@ const App = () => {
     "bg-[linear-gradient(105deg,#0A0A0A_0%,#0A0A0A_30%,#3e2f07_30%,#241b04_65%,#3d2d07_65%,#271d04_80%,#171103_80%,#0A0A0A_90%,#0A0A0A_90%,#0A0A0A_100%)]",
     "bg-[linear-gradient(105deg,#0A0A0A_0%,#0A0A0A_30%,#02161e_30%,#01090d_65%,#02161e_65%,#01090d_80%,#02161e_80%,#0A0A0A_90%,#0A0A0A_90%,#0A0A0A_100%)]",
   ];
-  const targetRef = useRef(null);
+
 
   
   return (
